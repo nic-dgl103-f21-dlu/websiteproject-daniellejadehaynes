@@ -1,0 +1,95 @@
+.homeheader{
+
+}
+.navbar{
+
+}
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    z-index: 1000;
+
+}
+.aboutme{
+    width: 550px;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+}
+.about .aboutme h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.about .aboutme p{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    padding-left: 100px;
+}
+.photos{
+   
+    float:right;
+    clear:right;
+    margin-left:20px;
+    padding-right: 100px;
+    
+}
+.gallery{
+    padding: 50px 100px 0px;
+}
+.column{
+    width: 33.33%;
+    min-height: 250px;
+    float: left;
+}
+.wrapper{
+    margin: 30px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.wrapper img{
+    width: 100%;
+}
+.body{
+    background-color: peachpuff;
+}
+.testimonials{
+    padding: 0 60px;
+    margin: 50px auto;
+    width: 1300px;
+    position: relative;
+    bottom: 0;
+    top: 600px;
+    z-index: 500;
+  
+
+}
+.testimonials h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: right;
+    position: relative;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+}
+.testimonials h2::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 170px;
+    bottom: 0;
+    left: 50%;
+    justify-content: space-around;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 100px;
+}
+.card{
+    padding: 60px;
+}

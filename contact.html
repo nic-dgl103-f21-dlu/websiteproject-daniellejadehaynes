@@ -7,46 +7,61 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
-    </head>
+  </head>
     <body class="body">
-        <header class="contactheader">
-        <a href="home.html"><img src="img/logoeye.pdf" alt= "lash logo" width="100" height="auto"></a>
+        <header class="header">
+        <a href="index.html"><img src="img/logoeye.png" alt= "lash logo" width="200" height="auto"></a>
+        <h1>Kenz Lashes</h1>
         </header>
         <nav>
-            <hr>
             <div class="navbar">
-              <b><a href="home.html">Home</a> &nbsp; <a href="services.html">Services</a> &nbsp; <a
-                  href="gallery.html">Gallery</a> &nbsp; <a href="Contact.html">Contact</a></b>
+              <b><a href="index.html">Home</a> &nbsp; <a href="services.html">Services</a> &nbsp; <a
+                  href="gallery.html">Gallery</a> &nbsp; <a href="contact.html">Contact</a></b>
               </div>
-            <hr>
           </nav>
-          <section class="contactform">
-              <h1>Contact Us</h1>
-              <form>
-                <label for="firstName">First Name:</label>
-                <input type="text" name="firstName" id="firstName">
-                <label for="lastName">Last Name:</label>
-                <input type="text" name="lastName" id="lastName">
-                <label for="Email">E-mail:</label>
-                <input type="text" name="myEmail" id="myEmail">
-                <label for="myComments">Comments:</label>
-                <textarea name="myComments" id="myComments"
-                  rows="2" cols="20"></textarea>
+          <div class="container">
+          <div class="contactform">
+            <h2>Contact Form</h2>
+            <form>
+              <label for="fname">First Name<br></label>
+              <input type="text" id="fname" name="firstname" placeholder="Ex: Danielle">
+          <br>
+              <label for="lname">Last Name<br></label>
+              <input type="text" id="lname" name="lastname" placeholder="Ex: Haynes">
+          <br>
+              <label for="email">Email <br><span class="label-required"></span></label>
+              <input type="email" id="email" name="email" placeholder="Ex: danielle@yahoo.com" required>
+          <br>
+              <label for="options">Set Options</label>
+              <br>
+              <select id="options" name="options">
+                <option value="classic">Classic</option>
+                <option value="hybrid">Hybrid</option>
+                <option value="volume">Volume</option>
+              </select>
+          <br>
+              <fieldset>
+                <legend>Type of appointment</legend>
+                <input type="radio" id="cfill" name="term" value="Fill">
+                <label for="cfill">Fill</label><br>
+                <input type="radio" id="fset" name="term" value="Full Set">
+                <label for="fset">Full Set</label><br>
+              </fieldset>
+          <br>
+              <label for="message">Message<br></label>
+              <textarea class="textarea" id="message" name="message" placeholder="Please tell me a little about your history with eyelash extensions" style="height:200px"></textarea>
+          <br>
                 <input type="submit" value="Submit">
-               </form>
-          </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            </form>
+          </div>
+            <div class="contactform">
+              <h2>Policy</h2>
+              <p>Please show up to your appoinment 10 minutes early without any eye or face makeup on. Masks are mandatory until further notice. If you need to cancel please give me at least 24 hours notice. If you are experiencing any Covid like symptoms please stay home and re schedule your appointment with me. Pets are welcome!</p>
+            </div>
+        </div>
+            <footer>
+              <div class="footer">
+                  <p>This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.</p>
+              </div>
+                  </footer>
 </body>

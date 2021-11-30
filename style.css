@@ -1,13 +1,20 @@
-.homeheader{
 
+/*home screen*/
+.header{
+    background-color: seashell ;
 }
-.navbar{
+h1{
+ float:right;
+ padding-right: 970px;
+ padding-top: 20px;
+ font-style: italic;
 
 }
 .about{
     width: 100%;
     padding: 78px 0px;
     z-index: 1000;
+
 
 }
 .aboutme{
@@ -25,8 +32,9 @@
 }
 .about .aboutme p{
     text-align: left;
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    font-family: 'Dongle', sans-serif;
+    font-weight: 900;
     line-height: 1.8;
     padding-left: 100px;
 }
@@ -38,6 +46,7 @@
     padding-right: 100px;
     
 }
+/*gallery screen*/
 .gallery{
     padding: 50px 100px 0px;
 }
@@ -55,41 +64,144 @@
 }
 .body{
     background-color: peachpuff;
+    margin: 0px;
 }
-.testimonials{
-    padding: 0 60px;
-    margin: 50px auto;
-    width: 1300px;
-    position: relative;
-    bottom: 0;
-    top: 600px;
-    z-index: 500;
-  
-
-}
-.testimonials h2{
-    font-size: 40px;
-    font-weight: 700;
-    text-align: right;
-    position: relative;
-    margin-bottom: 0px;
-    padding-bottom: 15px;
-}
-.testimonials h2::after{
-    content: "";
-    position: absolute;
-    height: 3px;
-    width: 170px;
-    bottom: 0;
-    left: 50%;
-    justify-content: space-around;
+/*home screen testimonials*/
+.content h3{
+    font-family: 'Poppins', sans-serif;
 }
 .content{
     display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
     justify-content: space-between;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 700px;
+    background-color: seashell ;
+}
+.content h2{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    }
+.content p{
+    font-family: 'Dongle', sans-serif;
+    font-weight: 900;
+    font-size: 1.4rem;
+
 }
 .card{
-    padding: 60px;
+    padding: 50px;
 }
+/*nav bar for all pages*/
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    margin: auto;
+    padding: 0 15px;
+    background-color: rgb(177, 231, 177);
+}
+.navbar a{
+    font-size: 2rem;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Dongle', sans-serif;
+    color: black;
+    display: inline-block;
+}
+/*contact form*/
+.contactform{
+    width: 50%;
+    float: left;
+    padding: 100px;
+    padding-right: 50px;
+    border: none;
+    max-width: 800px;
+    margin: 100px;
+    margin-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1.6rem;
+    font-family: 'Dongle', sans-serif;
+    font-weight: 900;
+   
+}
+
+}
+.contactform fieldset{
+    border: 0;
+}
+.contactform h2{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+
+/*services page*/
+.columns{
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    font-family: 'Dongle', sans-serif;
+    font-weight: 900;
+    font-size: 1.6rem;
+}
+/*table on contact form*/
+caption {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px 0;
+    padding-left: 590px;
+  }
+  table{
+      padding-top: 30px;
+      padding-bottom: 50px;
+      padding-left: 300px;
+      text-align: left;
+      font-family: 'Poppins', sans-serif;
+  }
+  td,
+  th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(156, 218, 156);
+    color: black;
+  }
+  
+  tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  tfoot {
+    font-size: 0.8em;
+    font-style: italic;
+    text-align: center;
+    background-color: #c5c5c5;
+  }
+
+  .footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 90px;
+    margin: auto;
+    padding: 0 15px;
+    background-color: rgb(177, 231, 177);
+    font-family: 'Dongle',sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+  }
